@@ -16,12 +16,16 @@
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
+  "resolutions": {
+    "elliptic": "^6.5.3",
+    "websocket-extensions": "^0.1.4"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && runkod -f build -p hello-runkod.runkodapps.com -a 1"
+    "deploy-runkod": "runkod -f build -p hello-runkod.runkodapps.com -a 1"
   },
   "eslintConfig": {
     "extends": "react-app"
