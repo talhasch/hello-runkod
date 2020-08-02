@@ -33,5 +33,4 @@ jobs:
       run: |
         npm install @runkod/runkod-cli
         yarn
-        yarn build
-        runkod -f build -p hello-runkod.runkodapps.com
+        yarn deploy
