@@ -31,7 +31,7 @@ jobs:
       env:
         RUNKOD_SECRET: ${{secrets.RUNKOD_SECRET}}
       run: |
-        npm install @runkod/runkod-cli
+        yarn
         yarn test
         yarn build
         yarn deploy-runkod
